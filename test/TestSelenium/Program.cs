@@ -38,10 +38,10 @@ namespace ChromeAgent
             element.Click(); // 버튼 클릭
 
             var loginBox = _driver.FindElement(By.XPath("//*[@id=\"loginId--1\"]"));
-            loginBox.SendKeys("kys021697@naver.com");
+            loginBox.SendKeys("아이디");
 
             var passBox = _driver.FindElement(By.XPath("//*[@id=\"password--2\"]"));
-            passBox.SendKeys("ftisland0302!");
+            passBox.SendKeys("비밀번호");
 
             var logButton = _driver.FindElement(By.XPath("//*[@id=\"mainContent\"]/div/div/form/div[4]/button[1]"));
             logButton.Click();
